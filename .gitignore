@@ -1,0 +1,34 @@
+# Compiled Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Android build artifacts, keystores & packages
+*.apk
+*.idsig
+*.keystore
+*.dex
+dist/
+build_stubs/
+
+# Proprietary ROM & disc images
+*.bin
+*.iso
+*.cue
+*.img
+
+# Decompiled raw dumps & working directory caches
+analysis/jadx/
+analysis/original/
+analysis/apktool/
+
+# Local agent & editor metadata
+.agents/
+skills-lock.json
+.idea/
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
